@@ -21,7 +21,6 @@
 - This project in some local directory
 - Fluent node project (https://github.com/fluentlabs-xyz/fluent) in 'fluent' directory on the same directory level as
   the current project's directory
-- 50 GB of free memory (required for the node when generating canonical blocks) - trying to figure out why it consumes so much
 
 ## How to run main components and send example Fuel transaction
 
