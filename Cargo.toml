@@ -23,13 +23,13 @@ categories = ["no-std", "zk"]
 fuel-ee-core = { path = "./crates/core", default-features = false }
 fuel-ee-contracts = { path = "./crates/contracts", default-features = false }
 
-fluentbase-poseidon = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", default-features = false }
-fluentbase-core = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", default-features = false }
-fluentbase-runtime = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", default-features = false }
-fluentbase-codec = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", default-features = false }
-fluentbase-sdk = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", default-features = false }
-fluentbase-genesis = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", default-features = false }
-fluentbase-types = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", default-features = false }
+fluentbase-poseidon = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", default-features = false }
+fluentbase-core = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", default-features = false }
+fluentbase-runtime = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", default-features = false }
+fluentbase-codec = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", default-features = false }
+fluentbase-sdk = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", default-features = false }
+fluentbase-genesis = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", default-features = false }
+fluentbase-types = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", default-features = false }
 #fluentbase-poseidon = { path = "../fluentbase/crates/poseidon", default-features = false }
 #fluentbase-core = { path = "../fluentbase/crates/core", default-features = false }
 #fluentbase-sdk = { path = "../fluentbase/crates/sdk", default-features = false, features = ["more-panic"] }
@@ -51,10 +51,10 @@ fuel-core-storage = { git = "https://github.com/fluentlabs-xyz/fuel-core", branc
 #fuel-core-executor = { path = "../fuel-core/crates/services/executor", default-features = false, features = ["alloc"] }
 #fuel-core-storage = { path = "../fuel-core/crates/storage", default-features = false, features = ["alloc"] }
 
-revm-interpreter = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm" }
-revm-primitives = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm" }
-revm-precompile = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm" }
-revm = { package = "revm", git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "feat/fuel-vm", features = [
+revm-interpreter = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel" }
+revm-primitives = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel" }
+revm-precompile = { git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel" }
+revm = { package = "revm", git = "https://github.com/fluentlabs-xyz/fluentbase", branch = "devel", features = [
     "std",
     "hashbrown",
     "blst",
